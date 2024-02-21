@@ -25,18 +25,23 @@ style.css: The stylesheet file for styling the application.
 script.js: The JavaScript file handling the dynamic functionality of the Employee Database.
 
 <div align="center">
+<p>
 [![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fgangadhararaoande%2Femployee-database.git&label=Visitors&countColor=%23263759)](https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2Fgangadhararaoande%2Fgrocery-manager.git)
 ![GitHub forks](https://img.shields.io/github/forks/gangadhararaoande/employee-database)
 ![GitHub Repo stars](https://img.shields.io/github/stars/gangadhararaoande/employee-database)
 ![GitHub contributors](https://img.shields.io/github/contributors/gangadhararaoande/employee-database)
 <a href="https://github.com/gangadhararaoande/employee-database"><img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/gangadhararaoande/employee-database?style=flat-square"></a>
+</p>
 </div>
 
 
 output:
 
 <div style="text-align: center;">
-      <img src="https://employee-database-gangadhararaoande.vercel.app" alt="ui">
+     <p>
+           [![Website](https://img.shields.io/website-up-down-green-red/https/employee-database-gangadhararaoande.vercel.app/)](https://employee-database-gangadhararaoande.vercel.app/)
+[Visit the live website](https://employee-database-gangadhararaoande.vercel.app/)
+     </p>
 </div>
 <br/>
 

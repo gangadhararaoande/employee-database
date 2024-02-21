@@ -1,4 +1,4 @@
-### Grocery Manager
+### Employee Database
 
 <div style="text-align: center;">
       <img src="./assets/images/employee-databases.gif" alt="ui">

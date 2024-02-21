@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Employee Database</title>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/images/favicon_io/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon_io/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/images/favicon_io/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./assets/images/favicon_io/site.webmanifest" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="flex-container">
+      <div class="flex-child magenta">
+        <table class="table">
+          <tr class="table-row">
+            <td>
+              <form onsubmit="event.preventDefault(); onFormSubmit();">
+                <div class="container">
+                  <h1 id="heading1">Register</h1>
+                  <p id="p1">Please fill this form to create a Record</p>
+                  <hr />
+                  <label for="Emp-Name" id="label"><b>Emp-Name</b></label>
+                  <input
+                    type="text"
+                    placeholder="Enter Name"
+                    name="name"
+                    id="name"
+                    required
+                  />
+                  <label for="Emp-Code" id="label"><b>Emp-Code</b></label>
+                  <input
+                    type="text"
+                    placeholder="Enter code"
+                    name="code"
+                    id="code"
+                    required
+                  />
+                  <label for="City" id="label"><b>City</b></label>
+                  <input
+                    type="text"
+                    placeholder="Enter City"
+                    name="city"
+                    id="city"
+                    required
+                  />
+                  <label for="Joining Date" id="label"
+                    ><b>Joining Date</b></label
+                  >
+                  <input
+                    type="text"
+                    placeholder="YYYY-MM-DD"
+                    name="date"
+                    pattern="(?:19|20)[0-9]{2}-(?:(?:0[1-9]|1[0-2])-(?:0[1-9]|1[0-9]|2[0-9])|(?:(?!02)(?:0[1-9]|1[0-2])-(?:30))|(?:(?:0[13578]|1[02])-31))"
+                    id="date"
+                    required
+                  />
+                  <label for="Department" id="label"><b>Department</b></label>
+                  <input
+                    type="text"
+                    placeholder="Enter department"
+                    id="dep"
+                    name="dep"
+                    required
+                  />
+                  <label for="Designation" id="label"><b>Designation</b></label>
+                  <input
+                    type="text"
+                    placeholder="Enter Designation"
+                    name="des"
+                    id="des"
+                    required
+                  />
+                  <label for="Salary" id="label"><b>Salary</b></label>
+                  <input
+                    type="number"
+                    placeholder="Salary"
+                    name="salary"
+                    min="0"
+                    id="salary"
+                    required
+                  />
+                  <br />
+                  <button class="registerbtn" type="submit" name="submit">
+                    Submit
+                  </button>
+                </div>
+              </form>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="gif flex-child green">
+        <td>
+          <h1 id="record">Record</h1>
+          <input
+            type="text"
+            id="myInput"
+            onkeyup="myFunction()"
+            placeholder="Search a name..."
+            title="Type in a name"
+          />
+          <table id="myTable">
+            <tr class="header"></tr>
+            <thead id="tab_head">
+              <tr>
+                <th>Emp-Name</th>
+                <th>Emp-Code</th>
+                <th>City</th>
+                <th>Joining Date</th>
+                <th>Department</th>
+                <th>Designation</th>
+                <th>Salary</th>
+                <th>Edit</th>
+                <th>Delete</th>
+              </tr>
+            </thead>
+            <tbody id="tab_body"></tbody>
+          </table>
+        </td>
+      </div>
+    </div>
+    <footer id="footer">
+      <div class="copyright">
+          Copyright &copy; Designed 2024 by <span>Gangadhara Rao Ande </span>
+      </div>
+  </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

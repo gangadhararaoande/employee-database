@@ -20,9 +20,9 @@ Welcome to the Employee Database web application! This simple yet effective tool
 - **Delete:** Remove the details of the employee that you no longer need.
 
 ## Project Structure
-index.html: The main HTML file containing the structure of the web page.
-style.css: The stylesheet file for styling the application.
-script.js: The JavaScript file handling the dynamic functionality of the Employee Database.
+index.html: The main HTML file containing the structure of the web page. <br/>
+style.css: The stylesheet file for styling the application.<br/>
+script.js: The JavaScript file handling the dynamic functionality of the Employee Database.<br/>
 
 <div align="center">
 <p>

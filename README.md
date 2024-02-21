@@ -26,21 +26,28 @@ script.js: The JavaScript file handling the dynamic functionality of the Employe
 
 <div align="center">
     <p>
-        [![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fgangadhararaoande%2Femployee-database.git&label=Visitors&countColor=%23263759)](https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2Fgangadhararaoande%2Fgrocery-manager.git)
-        ![GitHub forks](https://img.shields.io/github/forks/gangadhararaoande/employee-database)
-        ![GitHub Repo stars](https://img.shields.io/github/stars/gangadhararaoande/employee-database)
-        ![GitHub contributors](https://img.shields.io/github/contributors/gangadhararaoande/employee-database)
-        <a href="https://github.com/gangadhararaoande/employee-database"><img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/gangadhararaoande/employee-database?style=flat-square"></a>
+        <a href="https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2Fgangadhararaoande%2Fgrocery-manager.git">
+            <img src="https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fgangadhararaoande%2Femployee-database.git&label=Visitors&countColor=%23263759" alt="Visitors">
+        </a>
+        <img src="https://img.shields.io/github/forks/gangadhararaoande/employee-database" alt="GitHub forks">
+        <img src="https://img.shields.io/github/stars/gangadhararaoande/employee-database" alt="GitHub Repo stars">
+        <img src="https://img.shields.io/github/contributors/gangadhararaoande/employee-database" alt="GitHub contributors">
+        <a href="https://github.com/gangadhararaoande/employee-database">
+            <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/gangadhararaoande/employee-database?style=flat-square">
+        </a>
     </p>
 </div>
 
 <div style="text-align: center;">
     <p>
-        [![Website](https://img.shields.io/website-up-down-green-red/https/employee-database-gangadhararaoande.vercel.app/)](https://employee-database-gangadhararaoande.vercel.app/)
-        [Visit the live website](https://employee-database-gangadhararaoande.vercel.app/)
+        <a href="https://employee-database-gangadhararaoande.vercel.app/">
+            <img src="https://img.shields.io/website-up-down-green-red/https/employee-database-gangadhararaoande.vercel.app/" alt="Website Status">
+        </a>
+        <a href="https://employee-database-gangadhararaoande.vercel.app/">Visit the live website</a>
     </p>
 </div>
 <br/>
+
 
 
 <hr>
